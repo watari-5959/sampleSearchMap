@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         setContentView(R.layout.activity_main)
 
         // Initialize the SDK
-        Places.initialize(applicationContext, "AIzaSyAYUa3dGXCZXjfJJCKnRFupttnXTakEOjQ")
+        Places.initialize(applicationContext, "APIkey")
         placesClient = Places.createClient(this)
 
         // Set up the AutoCompleteTextView
